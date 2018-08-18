@@ -11,10 +11,12 @@ body {
 	background-color: green;
 	background-attachment: fixed;
 	font-family: sanFransisco !important;
+	overflow-x: hidden!important;
 
 }
 html {
-	height: 100%;
+	height: 100%;	overflow-x: hidden!important;
+
 }
 
 
