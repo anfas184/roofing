@@ -88,6 +88,8 @@ button.btn-back:hover {
 
 
 input,
+input[type="date"] + label,
+input[type="time"] + label,
 input[type="radio"] + label,
 input[type="checkbox"] + label:before,
 select option,
@@ -252,6 +254,8 @@ label {
 
 	input,
 	input[type="radio"] + label,
+	input[type="time"] + label,
+	input[type="date"] + label,
 	input[type="checkbox"] + label:before,
 	select option,
 	select {
