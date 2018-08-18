@@ -25,7 +25,7 @@ table .top-row th {
 
 .top-row th > span {
 	padding: 7px 15px;
-	background-color: #efeded;
+	background-color: #fff;
 	color: #000;
 	display: block;
 	border-top: 1px solid red;
@@ -79,7 +79,10 @@ table tbody tr td a button{
 	padding: 5px 10px;
 	transition: .3s ease-out;
 	cursor: pointer;
+	
 }
+
+
 table tbody tr td a button:hover{
 	background: #000;
 	border: 1px solid #000;
@@ -147,6 +150,9 @@ table tbody tr td a img {
 	}
 	.table {
 		font-size: 12px;
+		-webkit-font-smoothing: antialiased;
+		backface-visibility: hidden;
+		
 	}
 
 	.table td,

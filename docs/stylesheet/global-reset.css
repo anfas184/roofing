@@ -65,6 +65,10 @@ span {
 	font-family: inherit;
 }
 
+button:active{
+	outline: none;	
+}
+
 h1 {
 	color: #fff;
 	font-size: 45px;
