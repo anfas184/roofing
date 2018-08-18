@@ -22,6 +22,7 @@ form {
 
 #labour-lists > .row {
 	border: none;
+	-webkit-box-shadow: 0 1px 10px 0px rgba(0, 0, 0, .3) ;
 	box-shadow: 0 1px 10px 0px rgba(0, 0, 0, .3) ;
 	padding-top: 15px;
 	border-radius: 8px;
@@ -36,6 +37,7 @@ button:active {
 
 .btn-generic {
 	border-radius: 4px;
+	-webkit-transition: .3s;
 	transition: .3s;
 	cursor: pointer;
 	text-align: center !important;
@@ -97,9 +99,8 @@ select {
 	border: 1px solid #e5e5e5;
 	border-radius: 3px;
 	-webkit-transition: 0.35s ease-in-out;
-	-moz-transition: 0.35s ease-in-out;
-	-o-transition: 0.35s ease-in-out;
 	transition: 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
 
@@ -190,17 +191,15 @@ label {
 	border-right: 1px solid #e5e5e5;
 	content: "";
 	-webkit-transition: 0.35s ease-in-out;
-	-moz-transition: 0.35s ease-in-out;
-	-o-transition: 0.35s ease-in-out;
 	transition: 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
 
 .input-group-icon .input-icon i {
 	-webkit-transition: 0.35s ease-in-out;
-	-moz-transition: 0.35s ease-in-out;
-	-o-transition: 0.35s ease-in-out;
 	transition: 0.35s ease-in-out;
+	-webkit-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
 

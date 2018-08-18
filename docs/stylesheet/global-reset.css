@@ -4,6 +4,7 @@ body {
 	/*	background-size: cover;*/
 	background-repeat: no-repeat;
 	/*	height: 100%;*/
+	background-image: -webkit-gradient(linear, left top, right bottom, from(#96c93d), to(#00b09b));
 	background-image: linear-gradient(to right bottom, #96c93d, #00b09b);
 	padding: 10px;
 	padding-left: 30px;
@@ -12,6 +13,7 @@ body {
 	background-attachment: fixed;
 	font-family: sanFransisco !important;
 	overflow-x: hidden!important;
+
 
 }
 html {
@@ -89,6 +91,7 @@ a.btn.btn-back {
 	background: #fff;
 	margin-bottom: 50px;
 	color: #000;
+	-webkit-transition: .2s ease-out;
 	transition: .2s ease-out;
 }
 
@@ -100,6 +103,14 @@ a.btn.btn-back:hover {
 	border: 1px solid black;
 	margin-bottom: 50px;
 	color: #fff;
+}
+
+input::-webkit-input-placeholder {
+	color: #a8a7a7;
+}
+
+input:-ms-input-placeholder {
+	color: #a8a7a7;
 }
 
 input::placeholder {
@@ -115,6 +126,14 @@ input::placeholder {
 		padding: 10px;
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+	input::-webkit-input-placeholder {
+		font-size: 14px;
+	}
+
+	input:-ms-input-placeholder {
+		font-size: 14px;
 	}
 
 	input::placeholder {
