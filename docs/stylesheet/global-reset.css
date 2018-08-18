@@ -1,7 +1,7 @@
 body {
 	background-image: url(../images/construction-wallpaper-1.jpg);
 	/*	background-size: cover;*/
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	/*	height: 100%;*/
 	background-image: linear-gradient(to right bottom, #96c93d, #00b09b);
 	padding: 10px;
