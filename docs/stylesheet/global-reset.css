@@ -1,0 +1,142 @@
+body {
+	background-image: url(../images/construction-wallpaper-1.jpg);
+	/*	background-size: cover;*/
+	background-repeat: repeat;
+	/*	height: 100%;*/
+	background-image: linear-gradient(to right bottom, #96c93d, #00b09b);
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: green;
+	background-attachment: fixed;
+	font-family: sanFransisco !important;
+
+}
+html {
+	height: 100%;
+}
+
+
+@font-face {
+	font-family: robotoCondensed;
+	src: url(fonts/roboto/RobotoCondensed-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: sanFransisco;
+	src: url(fonts/san_fransisco/SFCompactDisplay-Light.ttf);
+	font-weight: 100;
+}
+@font-face {
+	font-family: sanFransisco;
+	src: url(fonts/san_fransisco/SFCompactDisplay-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: sanFransisco;
+	src: url(fonts/san_fransisco/SFCompactDisplay-SemiBold.ttf);
+	font-weight: 600;
+}
+
+/*OVERRIDES BOOTSTRAP CONTAINER STYLES*/
+.container{
+	padding: 0;
+}
+
+
+.title-div i{
+	font-size: 50px;
+	line-height: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+label,
+input,
+ul,
+li,
+span {
+	font-family: inherit;
+}
+
+h1 {
+	color: #fff;
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+
+
+a.btn.btn-back {
+	padding: 7px 15px;
+	font-size: 18px;
+	border: 1px solid #000;
+	background: #fff;
+	margin-bottom: 50px;
+	color: #000;
+	transition: .2s ease-out;
+}
+
+a.btn.btn-back:hover {
+	padding: 7px 15px;
+	font-size: 18px;
+	background: #000;
+	border: 1px solid #fff;
+	border: 1px solid black;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+input::placeholder {
+	color: #a8a7a7;
+}
+
+
+
+
+@media only screen and (max-width: 968px) {
+
+	body {
+		padding: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	input::placeholder {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+
+
+	a.btn.btn-back {
+		padding: 7px 15px;
+		font-size: 18px;
+		margin: 30px auto 50px;
+		max-width: 120px;
+		display: block;
+	}
+	#add-btn {
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 568px) {
+
+.title-div i{
+	font-size: 30px;
+	line-height: 0;
+}
+	
+
+}

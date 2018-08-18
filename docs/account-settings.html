@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Account settings</title>
+	<link rel="stylesheet" href="stylesheet/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheet/global-reset.css">
+	<link rel="stylesheet" href="stylesheet/generic-page.css">
+	<link rel="stylesheet" href="stylesheet/ion-icons/css/ionicons.min.css">
+	<link rel="stylesheet" href="stylesheet/font-awesome/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+<body>
+
+
+	<h1 class="page-title text-center">Account Settings</h1>
+
+	<a href="c-panel.html" class="btn btn-back"><i class="fa fa-arrow-left"></i> Go Back</a>
+
+	<div id="account-section">
+		<div class="container">
+			<div class="login">
+				<div class="row">
+					<form action="">
+						<div class="title-div text-center mb-5">
+								<i class="icon ion-ios-cog"></i>
+								<h3>Edit Account Info</h3>
+						</div>
+
+						<div class="row">
+
+							<div class="col-xs-12 col-md-4 text-right">
+								<label for="user-name">User Name</label>
+							</div>
+							<div class="col-xs-12 col-md-8">
+								<div class="input-group input-group-icon">
+									<input type="text" id="user-name" placeholder="Full Name" required/>
+									<div class="input-icon"><i class="fa fa-user"></i></div>
+								</div>
+							</div>
+
+							<div class="col-xs-12 col-md-4 text-right">
+								<label for="password">Password</label>
+							</div>
+							<div class="col-xs-12 col-md-8">
+								<div class="input-group input-group-icon">
+									<input type="text" class="password-check" id="password" placeholder="Password" required/>
+									<div class="input-icon"><i class="fa fa-key"></i></div>
+								</div>
+								
+							</div>
+
+							<div class="col-xs-12 col-md-4 text-right">
+								<label for="confirm-password">Confirm Password</label>
+							</div>
+							<div class="col-xs-12 col-md-8">
+								<div class="input-group input-group-icon">
+									<input type="text" class="password-check" id="confirm-password" placeholder="Confirm Password" required/>
+									<div class="input-icon"><i class="fa fa-key"></i></div>
+								</div>
+								<span id="pwd-status" style="font-size: 13px;"></span>
+							</div>	
+						</div>
+						<div class="row">
+							<div class="col-xs-6 col-sm-6 col-md-6">
+								<button type="reset" class="btn-generic cancel  pull-right">Reset</button>
+
+							</div>
+							<div class="col-xs-6 col-sm-6 col-md-6">
+								<button type="submit" id="submitBtn" class="btn-generic submit  pull-left">Save Changes</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<script src="scripts/jquery-3.3.1.min.js"></script>
+	<script src="scripts/bootstrap.bundle.js"></script>
+	<script src="scripts/account-settings.js"></script>
+	<script src="scripts/reset.js"></script>
+
+</body>
+
+</html>
